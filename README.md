@@ -1,6 +1,18 @@
 # NAMSHI | JOSE
 
-[![StyleCI](https://styleci.io/repos/10456191/shield?style=flat)](https://styleci.io/repos/10456191)
+## Deprecation notice
+
+> Hi there,
+>
+> as much as we'd like to be able to work on all of the OSS in the world,
+> we don't actively use this library anymore
+> This means that new features / bugfixes / etc will
+> only be merged based on pull requests from external contributors, and
+> we strongly recommend you look for a long-term alternative.
+> 
+> If you're looking for an actively maintained library check
+> [firebase/php-jwt](https://github.com/firebase/php-jwt) out!
+
 [![Build Status](https://travis-ci.org/namshi/jose.svg)](https://travis-ci.org/namshi/jose)
 [![Latest Stable Version](https://poser.pugx.org/namshi/jose/v/stable)](https://packagist.org/packages/namshi/jose)
 [![Total Downloads](https://poser.pugx.org/namshi/jose/downloads)](https://packagist.org/packages/namshi/jose)
@@ -189,6 +201,14 @@ Added the ability to set custom properties in the header. Moved automatic inclus
 #### 7.0.x
 
 Moved phpseclib and the openssl extension as suggested dependencies.
+
+## Tests
+
+Tests are written using PHPUnit for this library. After doing composer install you can execute the following command to run tests:
+
+```
+./vendor/bin/phpunit
+```
 
 ## Credits
 
